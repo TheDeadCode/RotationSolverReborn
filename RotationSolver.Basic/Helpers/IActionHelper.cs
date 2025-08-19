@@ -22,43 +22,6 @@ public static class IActionHelper
         ActionID.DragonfireDivePvE,
     };
     
-    internal static ActionID[] HealingActions { get; } =
-    {
-        // AST
-        ActionID.BeneficIiPvE,
-        ActionID.BeneficPvE,
-        ActionID.BeneficPvE_21608,
-        ActionID.HeliosConjunctionPvE,
-        ActionID.HeliosPvE,
-        ActionID.AspectedHeliosPvE,
-            
-        // SGE
-        ActionID.DiagnosisPvE,
-        ActionID.DiagnosisPvE_26224,
-        ActionID.PrognosisPvE,
-        ActionID.PrognosisPvE_27043,
-        ActionID.PneumaPvE,
-        ActionID.PneumaPvE,
-            
-        // WHM
-        ActionID.CurePvE,
-        ActionID.CureIiPvE,
-        ActionID.CureIiPvE_21886,
-        ActionID.MedicaPvE,
-        ActionID.MedicaIiPvE,
-        ActionID.MedicaIiPvE_21888,
-        ActionID.MedicaIiiPvE,
-        ActionID.CureIiiPvE,
-            
-        // SCH
-        ActionID.AdloquiumPvE,
-        ActionID.SuccorPvE,
-        ActionID.ConcitationPvE,
-        ActionID.PhysickPvE,
-        ActionID.PhysickPvE_11192,
-        ActionID.PhysickPvE_16230
-    };
-
     /// <summary>
     /// Determines if the last GCD action matches any of the provided actions.
     /// </summary>
